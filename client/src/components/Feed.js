@@ -20,11 +20,13 @@ const Feed = (props) => {
                 <h5>Searched</h5>
             </Col>
         </Row>
+            <div className='feed'>
             {
                 players.map(player => 
                     <Player player={ player } />
                     )  
             }
+            </div>
         </div>
     )
 }
