@@ -12,6 +12,7 @@ export const useAPI = (url) => {
         setResult(res.data)
         setLoading(false)
         })
+        .catch(err => console.log(err))
     }, [url])
     
     return [result, loading]

@@ -1,0 +1,10 @@
+.spacer {
+    height: 5vh;
+}
+
+.row {
+    background: #666;
+    margin: .3rem;
+    padding: .3rem;
+    border-radius: 5px;
+}
